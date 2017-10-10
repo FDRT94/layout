@@ -1,0 +1,156 @@
+body {
+background-color:rgb(230, 230, 230);
+height:auto;
+width:auto;
+font-size:sans-serif;
+padding:auto; 
+margin:auto;
+}
+
+header {
+background:black;
+background-image: url(img/header.jpg);
+width:100%;
+height:300px;
+padding-left: 5px;
+padding-right: 5px; 
+margin: 0px auto; 
+background-size: cover;
+position:relative;
+}
+
+ul {
+list-style-type:none;
+margin: auto;
+padding: auto;
+}
+
+ul li {
+color: white;
+font-size:sans-serif;
+text-align:center;
+}
+
+li {
+float:left;
+}
+
+nav ul li {
+display: inline-block;
+} 
+
+nav {
+position: absolute;
+bottom:20px;
+}
+
+nav a {
+list-style-type:none;
+text-decoration:none;
+font-size:20px;
+padding:10px;
+color:white;
+}
+
+nav a:links {
+color: white;
+background-color: transparent;
+}
+
+nav a:hover {
+color:#e60000;
+background-color:transparent;
+}
+
+p {
+color:black;
+}
+
+h2 {
+color: white;
+text-align:center;
+}
+
+h3 {
+color:rgb(0, 0, 179);
+}
+
+h4 {
+color:black;
+}
+
+main {
+flex-direction:row;
+width:100%;
+padding:10px 5px 5px 5px;
+margin: 5px;
+border: 5px;
+display: flex;
+flex-wrap: wrap;
+justify-content:space-around;
+}
+
+article {
+background-color:rgb(230, 230, 230);
+width: 40%;
+}
+
+aside {
+width: 30%;
+}
+
+aside img {  
+width: 40%;
+height:300px;
+}
+
+article img {
+width:80%;
+height:300px;
+}
+
+footer {
+color:white;
+text-align:center;
+background:grey;
+height: 50px;
+}
+
+.eloboost {
+width: 300px;
+height:150px;
+}
+
+.msilaptops {
+width: 300px;
+height: 150px;
+}
+
+.graph {
+float: right;
+width: 250px;
+height:200px;
+padding: 20px 10px 10px 10px;
+}
+
+.hobby {
+float:right;
+width: 250px;
+height:200px;
+padding: 10px;
+}
+
+.news {
+float: left;
+width: 250px;
+height:200px;
+padding: 10px;
+}
+
+.hobby2 {
+float:left;
+width: 150px;
+height:150px;
+padding: 10px;
+}
+
